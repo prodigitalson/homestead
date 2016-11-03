@@ -18,8 +18,8 @@ server {
     }
 
     # If you have 2 front controllers for dev|prod use the following line instead
-    # location ~ ^/(index|index_dev)\.php(/|\$) {
-    location ~ ^/index\.php(/|\$) {
+    location ~ ^/(index|index_dev)\.php(/|\$) {
+    # location ~ ^/index\.php(/|\$) {
 
         # the ubuntu default
         # fastcgi_pass   unix:/var/run/php/phpX.X-fpm.sock;
